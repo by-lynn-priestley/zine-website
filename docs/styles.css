@@ -1,0 +1,29 @@
+/* resets browser defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*measurement now includes padding and borders*/
+}
+
+/* adds smooth scroll effect to make the page section transitions more typewriter-like*/
+html {
+  scroll-behavior: smooth;
+}
+
+/* makes nav bar stick to top of page when it's scrolled past */
+.nav-bar-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #FAFAFA;
+  z-index: 3; /* positions nav bar over side bar images */
+}
+
+/* fixes issue of navigation bar partially covering header on jump */
+h1 span {
+  margin-top: -2.3em;
+  padding-bottom: 2.3em;
+  display: block;
+}
+
+/*code hover states for links?*/
