@@ -10,6 +10,19 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  margin: 0 auto;
+  max-width: 50em;
+
+  font-family: "Gotham Narrow", "Helvetica", "Arial", sans-serif;
+
+  line-height: 1.5;
+  padding: 1em 1em;
+
+  color: #555;
+}
+
+
 /* makes nav bar stick to top of page when it's scrolled past */
 .nav-bar-container {
   position: -webkit-sticky;
@@ -26,4 +39,26 @@ h1 span {
   display: block;
 }
 
-/*code hover states for links?*/
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+p {
+  margin-bottom: .5em;
+}
+
+a {
+  color: #e81c4f;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
