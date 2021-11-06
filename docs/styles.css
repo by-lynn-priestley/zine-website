@@ -127,5 +127,5 @@ a:focus {
 }
 
 .skip-to-content-link:focus {
-  transform: translateY(0%);
+  transform: translateY(40%);
 }
