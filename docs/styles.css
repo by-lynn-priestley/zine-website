@@ -18,22 +18,22 @@ body {
   font-family: "Gotham Narrow", "Helvetica", "Arial", sans-serif;
 
   line-height: 1.5;
-  padding: 1em 1em;
+  padding: 1em;
 
   color: #555;
 }
 
-
+/*
 /* makes nav bar stick to top of page when it's scrolled past */
-.nav-bar-container {
+/*.nav-bar-container {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: #FAFAFA;
-  z-index: 3; /* positions nav bar over side bar images */
-}
+  z-index: 3; /* positions nav bar over side bar images }*/
 
 .main-nav > ul {
+  margin-top: 1em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -110,4 +110,22 @@ a {
 
 a:hover {
   font-weight: bold;
+}
+
+a:focus {
+  outline: 2.5px solid #8e1600;
+}
+
+.skip-to-content-link {
+  background: #fce6e6;
+  height: 30px;
+  left: 44%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-200%);
+  transition: transform 0.3s;
+}
+
+.skip-to-content-link:focus {
+  transform: translateY(0%);
 }
