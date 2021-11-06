@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; /*measurement now includes padding and borders*/
+  background: #FAFAFA;
 }
 
 /* adds smooth scroll effect to make the page section transitions more typewriter-like*/
@@ -32,6 +33,17 @@ body {
   z-index: 3; /* positions nav bar over side bar images */
 }
 
+.main-nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+
 /* fixes issue of navigation bar partially covering header on jump */
 h1 span {
   margin-top: -2.3em;
@@ -45,17 +57,51 @@ strong {
   color: #333;
 }
 
+h1:first-of-type {
+  margin-top: 1.5em;
+  text-align: center;
+  margin-bottom: .15em;
+}
+
+.welc {
+  font-size: 2em;
+  text-align: center;
+  font-weight: normal;
+}
+.bod {
+  margin-top: -.45em;
+  font-size: 5em;
+  font-weight: bold;
+  text-align: center;
+}
+.arch {
+  margin-top: -.6em;
+  font-size: 3em;
+  text-align: center;
+}
+
 h2 {
   margin-top: 1em;
   padding-top: 1em;
 }
 
+h5 {
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
 p {
-  margin-bottom: .5em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+
+ol > li {
+  margin-bottom: 1em;
+  margin-left: 4em;
 }
 
 a {
-  color: #e81c4f;
+  color: #8e1600;
   text-decoration: none;
 }
 
