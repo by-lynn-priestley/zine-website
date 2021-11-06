@@ -100,9 +100,12 @@ ol > li {
   margin-left: 4em;
 }
 
+li > a {
+  text-decoration: none;
+}
+
 a {
   color: #8e1600;
-  text-decoration: none;
 }
 
 a:hover {
