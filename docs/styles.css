@@ -125,10 +125,10 @@ a:focus {
 .skip-to-content-link:focus {
   transform: translateY(40%);
 }
-
+/*
 .text-and-icon-container {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
-}
+} */
