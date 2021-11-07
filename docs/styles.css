@@ -23,14 +23,15 @@ body {
   color: #555;
 }
 
-/*
 /* makes nav bar stick to top of page when it's scrolled past */
-/*.nav-bar-container {
+.nav-bar-container {
+  height: 2em;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: #FAFAFA;
-  z-index: 3; /* positions nav bar over side bar images }*/
+  z-index: 2;/* positions nav bar over side bar images*/
+}
 
 .main-nav > ul {
   margin-top: 1em;
@@ -41,6 +42,10 @@ body {
 
 ul > li {
   list-style-type: none;
+}
+
+ol > li {
+  overflow-wrap: break-word; /*prevents URLs from breaking out of body*/
 }
 
 
@@ -74,6 +79,10 @@ h2 {
 h4 {
   margin-top: 1em;
   margin-left: 2em;
+}
+
+.print-p {
+  margin-left: 3em;
 }
 
 p {
@@ -110,8 +119,16 @@ a:focus {
   position: absolute;
   transform: translateY(-200%);
   transition: transform 0.3s;
+  z-index: 3;
 }
 
 .skip-to-content-link:focus {
   transform: translateY(40%);
+}
+
+.text-and-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
 }
