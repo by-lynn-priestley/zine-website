@@ -125,6 +125,13 @@ a:focus {
 .skip-to-content-link:focus {
   transform: translateY(40%);
 }
+
+.diagram-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
 /*
 .text-and-icon-container {
   display: flex;
