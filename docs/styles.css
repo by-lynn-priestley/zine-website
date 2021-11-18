@@ -134,7 +134,17 @@ a:focus {
 }
 
 .pointer {
-  position: absolute;
-  top: 25%;
-  left: 19%;
+  position: relative;
+  left: -12%;
+  bottom: 15px;
+}
+
+.intro-h2 {
+  margin-top: -175px;
+}
+
+@media only screen and (max-width: 970px) {
+  .pointer {
+    visibility: hidden;
+  }
 }
