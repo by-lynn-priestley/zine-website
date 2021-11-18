@@ -9,6 +9,7 @@
 /* adds smooth scroll effect to make the page section transitions more typewriter-like*/
 html {
   scroll-behavior: smooth;
+  scroll-padding: 2em; //gets scroll margins right
 }
 
 body {
@@ -46,14 +47,6 @@ ul > li {
 
 ol > li {
   overflow-wrap: break-word; /*prevents URLs from breaking out of body*/
-}
-
-
-/* fixes issue of navigation bar partially covering header on jump */
-h1 span {
-  margin-top: -2.3em;
-  padding-bottom: 2.3em;
-  display: block;
 }
 
 h1,
