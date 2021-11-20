@@ -128,16 +128,17 @@ a:focus {
 
 .pointer {
   position: relative;
-  left: -11%;
+  left: 100%;
   bottom: 25px;
 }
+
 
 .intro-h2 {
   margin-top: -175px;
 }
 
 @media only screen and (max-width: 970px) {
-  .pointer {
+  .pointer, .reader {
     visibility: hidden;
   }
 }
