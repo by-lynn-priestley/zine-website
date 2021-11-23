@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; /*measurement now includes padding and borders*/
-  background: #FAFAFA;
+  background: #F5F5F5;
 }
 
 /* adds smooth scroll effect to make the page section transitions more typewriter-like*/
@@ -16,12 +16,20 @@ body {
   margin: 0 auto;
   max-width: 50em;
 
-  font-family: "Gotham Narrow", "Helvetica", "Arial", sans-serif;
+  font-family: sans-serif;
 
   line-height: 1.5;
   padding: 1em;
 
   color: #555;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
 }
 
 /* makes nav bar stick to top of page when it's scrolled past */
@@ -30,7 +38,7 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #FAFAFA;
+  background-color: #F5F5F5;
   z-index: 2;/* positions nav bar over side bar images*/
 }
 
@@ -52,7 +60,7 @@ ol > li {
 h1,
 h2,
 strong {
-  color: #333;
+  color: #444;
 }
 
 h1:first-of-type {
@@ -61,7 +69,7 @@ h1:first-of-type {
 }
 
 .welc > strong {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 h2 {
@@ -132,6 +140,15 @@ a:focus {
   margin-top: .3em;
 }
 
-.intro-h2{
+.border {
+  opacity: .8;
+}
+
+.intro-h2 {
   margin-top: -8px;
+}
+
+.break,
+.font-ref {  
+  text-align: center;
 }
