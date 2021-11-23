@@ -9,7 +9,7 @@
 /* adds smooth scroll effect to make the page section transitions more typewriter-like*/
 html {
   scroll-behavior: smooth;
-  scroll-padding: 1.6em; //gets scroll margins right
+  scroll-padding: 2em; //gets scroll margins right
 }
 
 body {
