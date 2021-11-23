@@ -149,6 +149,10 @@ a:focus {
 }
 
 .break,
-.font-ref {  
+.font-ref {
   text-align: center;
+}
+
+.font-ref {
+  font-size: .7em;
 }
