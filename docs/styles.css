@@ -169,25 +169,30 @@ a:focus {
   h1 {
     text-align: center;
   }
-  
+
   .welc > strong {
     font-size: 2em;
   }
 
   .nav-bar-container {
-    height: 4em;
+    height: 5em;
   }
 
   .main-nav > ul {
-    margin-top: 1em;
+    margin-top: .1em;
+    margin-bottom: .5em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 2;
+    line-height: 2.5;
   }
 
   .diagram-container,
   .border-container {
-    margin-top: .1em;
-    margin-bottom: .1em;
+    margin-top: -.15em;
+    margin-bottom: -.15em;
+}
+  .skip-to-content-link {
+    visibility: hidden;
+  }
 }
