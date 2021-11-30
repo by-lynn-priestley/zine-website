@@ -165,7 +165,11 @@ a:focus {
 }
 
 /*need media query for narrow screens to vertically stack nav bar*/
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 400px) {
+  html {
+    scroll-padding: 4.85em;
+  }
+
   h1 {
     text-align: center;
   }
@@ -175,7 +179,7 @@ a:focus {
   }
 
   .nav-bar-container {
-    height: 5em;
+    height: 4.25em;
   }
 
   .main-nav > ul {
