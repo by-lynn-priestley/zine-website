@@ -157,7 +157,7 @@ a:focus {
   font-size: .7em;
 }
 
-/* scaling imgs for mobile */
+/* scaling imgs for mobile and narrow screen widths on computer*/
 .diagram-container, .diagram-container > img,
 .border-container, .border-container > img {
   width: 100%;
@@ -165,3 +165,29 @@ a:focus {
 }
 
 /*need media query for narrow screens to vertically stack nav bar*/
+@media only screen and (max-width: 380px) {
+  h1 {
+    text-align: center;
+  }
+  
+  .welc > strong {
+    font-size: 2em;
+  }
+
+  .nav-bar-container {
+    height: 4em;
+  }
+
+  .main-nav > ul {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+  }
+
+  .diagram-container,
+  .border-container {
+    margin-top: .1em;
+    margin-bottom: .1em;
+}
