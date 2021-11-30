@@ -156,3 +156,12 @@ a:focus {
 .font-ref {
   font-size: .7em;
 }
+
+/* scaling imgs for mobile */
+.diagram-container, .diagram-container > img,
+.border-container, .border-container > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+/*need media query for narrow screens to vertically stack nav bar*/
